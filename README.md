@@ -1,9 +1,9 @@
 # Pathfinder Containers
 
-[![Docker Image Master Branch](https://github.com/goryn-clade/pathfinder-containers/actions/workflows/docker-image.yml/badge.svg?branch=master)](https://github.com/goryn-clade/pathfinder-containers/actions/workflows/docker-image.yml)
+[![Docker Image Master Branch](https://github.com/cymru2000/pathfinder-containers/actions/workflows/docker-image.yml/badge.svg?branch=master)](https://github.com/cymru2000/pathfinder-containers/actions/workflows/docker-image.yml)
 
 
-A fork of techfreak's [Pathfinder-container](https://gitlab.com/techfreak/pathfinder-container/) docker-compose solution for Pathfinder that is designed to work with Goryn Clade's [Pathfinder](https://github.com/goryn-clade/pathfinder/) fork, using [Traefik](https://traefik.io/) as a reverse proxy to expose the docker container.
+A fork of techfreak's [Pathfinder-container](https://gitlab.com/techfreak/pathfinder-container/) docker-compose solution for Pathfinder that is designed to work with Goryn Clade's [Pathfinder](https://github.com/cymru2000/pathfinder/) fork, using [Traefik](https://traefik.io/) as a reverse proxy to expose the docker container.
 
 1. [Installation](#installation)
 1. [Using Traefik](#using-traefik)
@@ -42,7 +42,7 @@ A fork of techfreak's [Pathfinder-container](https://gitlab.com/techfreak/pathfi
   
 1. **Clone the repo**
     ```shell
-    git clone --recurse-submodules  https://github.com/goryn-clade/pathfinder-containers.git
+    git clone --recurse-submodules  https://github.com/cymru2000/pathfinder-containers.git
     ```
 
 1. **Create a *.env* file (copy .env.example) and make sure every config option has an entry.**
@@ -81,7 +81,7 @@ A fork of techfreak's [Pathfinder-container](https://gitlab.com/techfreak/pathfi
         * `NAME`- the tab title when viewing your Pathfinder
     * `[PATHFINDER.LOGIN]`
         * `COOKIE_EXPIRE` - expire age (in days) for login cookies. [read more](https://github.com/exodus4d/pathfinder/issues/138#issuecomment-216036606)
-        * `SESSION_SHARING` - Share maps between logged in characters in the same browser session. [read more](https://github.com/goryn-clade/pathfinder/releases/tag/v2.1.1)
+        * `SESSION_SHARING` - Share maps between logged in characters in the same browser session. [read more](https://github.com/cymru2000/pathfinder/releases/tag/v2.1.1)
         * `CHARACTER` - Character allow-list. Comma separated string of character ids. (empty = "no restriction")
         * `CORPORATION` - Corporation allow-list. Comma separated string of corporation ids. (empty = "no restriction")
         * `ALLIANCE` - Alliance allow-list. Comma separated string of alliance ids. (empty = "no restriction")
